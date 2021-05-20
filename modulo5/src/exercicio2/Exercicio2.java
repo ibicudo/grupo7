@@ -14,9 +14,9 @@ public class Exercicio2 {
         System.out.println("Informe um valor para verificar seus multiplos:");
         int m = scanner.nextInt();
 
-        for(int i = 1; i < n+1; i++){
+        for (int i = 1; i < n + 1; i++) {
 
-            System.out.println(i*m);
+            System.out.println(i * m);
         }
     }
 }
