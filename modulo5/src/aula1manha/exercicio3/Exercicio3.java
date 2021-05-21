@@ -1,4 +1,4 @@
-package exercicio3;
+package modulo5.src.aula1manha.exercicio3;
 
 import java.util.Scanner;
 
