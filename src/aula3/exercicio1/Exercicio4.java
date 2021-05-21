@@ -1,11 +1,9 @@
-package exercicio4;
+package aula3.exercicio1;
 
 import java.util.Scanner;
 
 public class Exercicio4 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe um número:");
@@ -18,7 +16,7 @@ public class Exercicio4 {
         while (numeros < n) {
 
             boolean verificandoPrimo = true;
-            for (int j = 2; j < i / 2; j++) {
+            for (int j = 2; j < i; j++) {
 
                 if (i % j == 0) {
                     verificandoPrimo = false;

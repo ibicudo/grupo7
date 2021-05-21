@@ -1,11 +1,9 @@
-package exercicio3;
+package aula3.exercicio1;
 
 import java.util.Scanner;
 
 public class Exercicio3 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe um número:");
@@ -21,6 +19,5 @@ public class Exercicio3 {
         }
 
         System.out.println("Numero é primo");
-
     }
 }
