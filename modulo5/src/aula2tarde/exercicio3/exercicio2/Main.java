@@ -7,6 +7,8 @@ public class Main {
         Rectangle rectangle = new Rectangle(10, 2);
         Triangle triangle = new Triangle(10, 2);
 
+        GeometricFigure[] figures = { circle, rectangle, triangle };
+
         System.out.println(circle);
         System.out.println(rectangle);
         System.out.println(triangle);
@@ -14,5 +16,7 @@ public class Main {
         System.out.printf("%.2f%n", circle.getArea());
         System.out.println(rectangle.getArea());
         System.out.println(triangle.getArea());
+
+        System.out.printf("%.2f%n", GeometricFigureUtils.averageArea(figures));
     }
 }
