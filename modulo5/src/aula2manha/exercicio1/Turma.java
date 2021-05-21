@@ -1,4 +1,4 @@
-package modulo5.src.aula2manha;
+package modulo5.src.aula2manha.exercicio1;
 
 import java.util.*;
 
