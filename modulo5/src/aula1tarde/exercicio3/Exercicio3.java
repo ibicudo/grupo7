@@ -1,6 +1,5 @@
 package modulo5.src.aula1tarde.exercicio3;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 

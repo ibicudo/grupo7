@@ -1,7 +1,5 @@
 package modulo5.src.aula2manha.exercicio2.exercicio5;
 
-import java.util.*;
-
 public class Data {
 
     public Data(int todayDay, int todayMonth, int todayYear){

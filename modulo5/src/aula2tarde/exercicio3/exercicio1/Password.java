@@ -17,4 +17,7 @@ public class Password {
             throw new Exception("Password does not match pattern");
         }
     }
+    public String getValue() {
+        return value;
+    }
 }
