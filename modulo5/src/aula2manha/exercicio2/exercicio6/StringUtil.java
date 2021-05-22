@@ -1,4 +1,4 @@
-package aula2manha.exercicio2.exercicio6;
+package modulo5.src.aula2manha.exercicio2.exercicio6;
 
 public class StringUtil {
 

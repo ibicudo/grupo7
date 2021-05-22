@@ -1,4 +1,4 @@
-package modulo5.src.aula2manha.exercicio5;
+package modulo5.src.aula2manha.exercicio2.exercicio5;
 
 public class Main {
     public static void main(String[] args) {
