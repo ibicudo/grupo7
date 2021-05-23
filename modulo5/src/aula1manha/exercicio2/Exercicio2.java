@@ -18,5 +18,6 @@ public class Exercicio2 {
 
             System.out.println(i * m);
         }
+        scanner.close();
     }
 }

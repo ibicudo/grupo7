@@ -31,5 +31,7 @@ public class Exercicio3 {
         }
 
         System.out.println("Valor Total: R$" +total);
+
+        scanner.close();
     }
 }

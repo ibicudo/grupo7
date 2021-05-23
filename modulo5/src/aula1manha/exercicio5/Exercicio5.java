@@ -30,5 +30,6 @@ public class Exercicio5 {
             }
             number++;
         }
+        scanner.close();
     }
 }

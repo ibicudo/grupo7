@@ -34,5 +34,6 @@ public class Exercicio4 {
 
             i++;
         }
+        scanner.close();
     }
 }

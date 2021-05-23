@@ -1,7 +1,7 @@
 package modulo5.src.aula2manha.exercicio2.exercicio5;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Data today = new Data(21, 5, 2021);
         System.out.println(today);
 
