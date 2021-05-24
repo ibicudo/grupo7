@@ -20,4 +20,12 @@ public class Pessoa implements Precedente<Pessoa> {
     public int precede(Pessoa p) {
         return this.cpf.compareTo(p.cpf);
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                '}';
+    }
 }
