@@ -1,4 +1,4 @@
-package modulo5.src.aula3manha.ton.exercicio1;
+package modulo5.src.aula3manha.exercicio1;
 
 public class Pessoa implements Precedente<Pessoa> {
     private String nome;
