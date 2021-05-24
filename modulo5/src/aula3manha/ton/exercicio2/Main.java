@@ -15,6 +15,11 @@ public class Main {
             }
         };
         quick.sort(numbers,c);
-        System.out.println(Arrays.toString(numbers));
+        System.out.println("Ordenando pelo quickSort: " +Arrays.toString(numbers));
+
+        Integer [] numbersHeap ={4,6,9,8};
+        HeapSorterImple <Integer> heap= new HeapSorterImple<>();
+        heap.sort(numbersHeap,c);
+        System.out.println("Ordenando pelo heapSort: " +Arrays.toString(numbersHeap));
     }
 }
