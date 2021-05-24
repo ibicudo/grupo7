@@ -21,5 +21,10 @@ public class Main {
         HeapSorterImple <Integer> heap= new HeapSorterImple<>();
         heap.sort(numbersHeap,c);
         System.out.println("Ordenando pelo heapSort: " +Arrays.toString(numbersHeap));
+
+        Integer [] numbersBubble ={3,6,9,8};
+        BubbleSortImple <Integer> bubble= new BubbleSortImple<>();
+        bubble.sort(numbersBubble,c);
+        System.out.println("Ordenando pelo bubbeSort: " +Arrays.toString(numbersBubble));
     }
 }
