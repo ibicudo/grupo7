@@ -1,6 +1,6 @@
 package modulo5.src.aula3manha.ton;
 
-public class Pessoa implements Precedente {
+public class Pessoa implements Precedente<Pessoa> {
     private String nome;
     private String cpf;
 
@@ -17,8 +17,7 @@ public class Pessoa implements Precedente {
     }
     
     @Override
-    public int precede(Object t) {
-        Pessoa p = (Pessoa) t;
+    public int precede(Pessoa p) {
         return this.cpf.compareTo(p.cpf);
     }
 }
