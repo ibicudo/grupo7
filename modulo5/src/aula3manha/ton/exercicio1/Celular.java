@@ -1,4 +1,4 @@
-package modulo5.src.aula3manha.ton;
+package modulo5.src.aula3manha.ton.exercicio1;
 
 public class Celular implements Precedente<Celular>{
     private String number;

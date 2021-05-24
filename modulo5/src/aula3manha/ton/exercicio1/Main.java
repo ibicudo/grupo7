@@ -1,8 +1,6 @@
-package modulo5.src.aula3manha.ton;
+package modulo5.src.aula3manha.ton.exercicio1;
 
 import java.util.Arrays;
-
-import static modulo5.src.aula3manha.ton.SortUtil.sort;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package modulo5.src.aula3manha.ton;
+package modulo5.src.aula3manha.ton.exercicio1;
 
 public class SortUtil {
     public static <T> void sort (Precedente<T> arr []){
