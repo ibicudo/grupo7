@@ -1,4 +1,4 @@
-package modulo5.src.aula3manha.ton.exercicio2;
+package modulo5.src.aula3manha.exercicio2;
 
 import java.util.Comparator;
 
