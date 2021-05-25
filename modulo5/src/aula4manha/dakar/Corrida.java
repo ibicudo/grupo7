@@ -66,6 +66,8 @@ public class Corrida {
                 this.campeao = veiculo.getPlaca();
             }
         });
+        System.out.println("A corrida: " + this.nome);
         System.out.println("O vencedor é: " + this.campeao + "\nCom o tempo: " + this.tempoCampeao);
+        System.out.println("Com o premio de: US$" + this.premioEmDolares);
     }
 }
